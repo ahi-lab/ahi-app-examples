@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "ahi-pod-ios-bodyscan",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-bodyscan",
+      "state" : {
+        "revision" : "63fbc865342608203522597ae42c1f046b32d5d8",
+        "version" : "22.0.1913"
+      }
+    },
+    {
+      "identity" : "ahi-pod-ios-common",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-common",
+      "state" : {
+        "revision" : "11c6725a05b773af6cca1e0ff85d5e83e6981893",
+        "version" : "22.0.1157"
+      }
+    },
+    {
+      "identity" : "ahi-pod-ios-facescan",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-facescan",
+      "state" : {
+        "revision" : "d020050dbd72fa6bbf24c5687f393f3f31f275ed",
+        "version" : "22.0.1096"
+      }
+    },
+    {
+      "identity" : "ahi-pod-ios-fingerscan",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-fingerscan",
+      "state" : {
+        "revision" : "d1abb27246feb52b6e44b249da0fb45859bfe68d",
+        "version" : "22.0.181"
+      }
+    },
+    {
+      "identity" : "ahi-pod-ios-multiscan",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-multiscan",
+      "state" : {
+        "revision" : "b70675d4da2b839cd8c91f1e0beef56635e70144",
+        "version" : "22.0.1061"
+      }
+    }
+  ],
+  "version" : 2
+}

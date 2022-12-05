@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482DCFE9293D65CC008F63C4 /* AHIMultiScan in Frameworks */ = {isa = PBXBuildFile; productRef = 482DCFE8293D65CC008F63C4 /* AHIMultiScan */; };
+		482DCFEC293D65DC008F63C4 /* AHIFingerScan in Frameworks */ = {isa = PBXBuildFile; productRef = 482DCFEB293D65DC008F63C4 /* AHIFingerScan */; };
+		482DCFEF293D65EE008F63C4 /* AHIFaceScan in Frameworks */ = {isa = PBXBuildFile; productRef = 482DCFEE293D65EE008F63C4 /* AHIFaceScan */; };
+		482DCFF2293D65FF008F63C4 /* AHIBodyScan in Frameworks */ = {isa = PBXBuildFile; productRef = 482DCFF1293D65FF008F63C4 /* AHIBodyScan */; };
+		48B3FDD52939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B3FDD42939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplateApp.swift */; };
+		48B3FDD72939A9F100C59B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B3FDD62939A9F100C59B0F /* ContentView.swift */; };
+		48B3FDD92939A9F200C59B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B3FDD82939A9F200C59B0F /* Assets.xcassets */; };
+		48B3FDDC2939A9F300C59B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B3FDDB2939A9F300C59B0F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B3FDD12939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ahi_swiftpm_multiscan_boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B3FDD42939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ahi_swiftpm_multiscan_boilerplateApp.swift; sourceTree = "<group>"; };
+		48B3FDD62939A9F100C59B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48B3FDD82939A9F200C59B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B3FDDB2939A9F300C59B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B3FDCE2939A9F100C59B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482DCFF2293D65FF008F63C4 /* AHIBodyScan in Frameworks */,
+				482DCFE9293D65CC008F63C4 /* AHIMultiScan in Frameworks */,
+				482DCFEC293D65DC008F63C4 /* AHIFingerScan in Frameworks */,
+				482DCFEF293D65EE008F63C4 /* AHIFaceScan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B3FDC82939A9F100C59B0F = {
+			isa = PBXGroup;
+			children = (
+				48B3FDD32939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate */,
+				48B3FDD22939A9F100C59B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B3FDD22939A9F100C59B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B3FDD12939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B3FDD32939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				48B3FDD42939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplateApp.swift */,
+				48B3FDD62939A9F100C59B0F /* ContentView.swift */,
+				48B3FDD82939A9F200C59B0F /* Assets.xcassets */,
+				48B3FDDA2939A9F300C59B0F /* Preview Content */,
+			);
+			path = ahi_swiftpm_multiscan_boilerplate;
+			sourceTree = "<group>";
+		};
+		48B3FDDA2939A9F300C59B0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48B3FDDB2939A9F300C59B0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B3FDD02939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B3FDDF2939A9F300C59B0F /* Build configuration list for PBXNativeTarget "ahi_swiftpm_multiscan_boilerplate" */;
+			buildPhases = (
+				48B3FDCD2939A9F100C59B0F /* Sources */,
+				48B3FDCE2939A9F100C59B0F /* Frameworks */,
+				48B3FDCF2939A9F100C59B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ahi_swiftpm_multiscan_boilerplate;
+			packageProductDependencies = (
+				482DCFE8293D65CC008F63C4 /* AHIMultiScan */,
+				482DCFEB293D65DC008F63C4 /* AHIFingerScan */,
+				482DCFEE293D65EE008F63C4 /* AHIFaceScan */,
+				482DCFF1293D65FF008F63C4 /* AHIBodyScan */,
+			);
+			productName = ahi_swiftpm_multiscan_boilerplate;
+			productReference = 48B3FDD12939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B3FDC92939A9F100C59B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					48B3FDD02939A9F100C59B0F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 48B3FDCC2939A9F100C59B0F /* Build configuration list for PBXProject "ahi_swiftpm_multiscan_boilerplate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B3FDC82939A9F100C59B0F;
+			packageReferences = (
+				482DCFE7293D65CC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-multiscan" */,
+				482DCFEA293D65DC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-fingerscan" */,
+				482DCFED293D65EE008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-facescan" */,
+				482DCFF0293D65FF008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-bodyscan" */,
+			);
+			productRefGroup = 48B3FDD22939A9F100C59B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B3FDD02939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B3FDCF2939A9F100C59B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B3FDDC2939A9F300C59B0F /* Preview Assets.xcassets in Resources */,
+				48B3FDD92939A9F200C59B0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B3FDCD2939A9F100C59B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B3FDD72939A9F100C59B0F /* ContentView.swift in Sources */,
+				48B3FDD52939A9F100C59B0F /* ahi_swiftpm_multiscan_boilerplateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48B3FDDD2939A9F300C59B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B3FDDE2939A9F300C59B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B3FDE02939A9F300C59B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ahi_swiftpm_multiscan_boilerplate/Preview Content\"";
+				DEVELOPMENT_TEAM = R8N9468BQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take a scan.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.ahi.ahi-swiftpm-multiscan-boilerplate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B3FDE12939A9F300C59B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ahi_swiftpm_multiscan_boilerplate/Preview Content\"";
+				DEVELOPMENT_TEAM = R8N9468BQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take a scan.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.ahi.ahi-swiftpm-multiscan-boilerplate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B3FDCC2939A9F100C59B0F /* Build configuration list for PBXProject "ahi_swiftpm_multiscan_boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B3FDDD2939A9F300C59B0F /* Debug */,
+				48B3FDDE2939A9F300C59B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B3FDDF2939A9F300C59B0F /* Build configuration list for PBXNativeTarget "ahi_swiftpm_multiscan_boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B3FDE02939A9F300C59B0F /* Debug */,
+				48B3FDE12939A9F300C59B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		482DCFE7293D65CC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-multiscan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-multiscan";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 22.0.0;
+			};
+		};
+		482DCFEA293D65DC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-fingerscan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-fingerscan";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 22.0.0;
+			};
+		};
+		482DCFED293D65EE008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-facescan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-facescan";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 22.0.0;
+			};
+		};
+		482DCFF0293D65FF008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-bodyscan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://git-codecommit.ap-southeast-2.amazonaws.com/v1/repos/ahi-pod-ios-bodyscan";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 22.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		482DCFE8293D65CC008F63C4 /* AHIMultiScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 482DCFE7293D65CC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-multiscan" */;
+			productName = AHIMultiScan;
+		};
+		482DCFEB293D65DC008F63C4 /* AHIFingerScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 482DCFEA293D65DC008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-fingerscan" */;
+			productName = AHIFingerScan;
+		};
+		482DCFEE293D65EE008F63C4 /* AHIFaceScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 482DCFED293D65EE008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-facescan" */;
+			productName = AHIFaceScan;
+		};
+		482DCFF1293D65FF008F63C4 /* AHIBodyScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 482DCFF0293D65FF008F63C4 /* XCRemoteSwiftPackageReference "ahi-pod-ios-bodyscan" */;
+			productName = AHIBodyScan;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 48B3FDC92939A9F100C59B0F /* Project object */;
+}
