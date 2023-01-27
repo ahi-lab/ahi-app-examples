@@ -1,6 +1,6 @@
-# AHI SDK Integration Example Apps
+# AHI SDK Integration Examples
 
-Several apps with identical UI and functionality, for both iOS and Android platforms, that demonstrate how to integrate AHI SDKs into your app using the most popular and modern languages and frameworks. 
+This repo consists of several apps with identical UI and functionality, with the primary purpose to demonstrate how to integrate AHI SDKs into an app, for various popular development frameworks.
 
 You can find a guide about using the Example Apps to demonstrate how to seamlessly integrate into your product on our [Developer Docs site](https://docs.advancedhumanimaging.io/).
 
@@ -8,36 +8,27 @@ You can find a guide about using the Example Apps to demonstrate how to seamless
 
 You can review the integrations for the following:
 
-### iOS App - UIKit
-[UIKit integration](Scans/UIKit/README.md)
+[iOS App - UIKit](Scans/UIKit/README.md)
 
-### iOS App - SwiftUI
-[SwiftUI integration](Scans/SwiftUI/README.md)
+[iOS App - SwiftUI](Scans/SwiftUI/README.md)
 
-### Android App - Kotlin 
-[Kotlin integration](Scans/Kotlin/README.md)
+[Android App - Kotlin](Scans/Kotlin/README.md)
 
-### Android App - JetPack Compose
-[Jetpack Compose integration](Scans/JetpackCompose/README.md)
+[Android App - JetPack Compose](Scans/JetpackCompose/README.md)
 
-### iOS and Android - React Native
-[React Native integration](Scans/ReactNative/README.md)
+[iOS and Android - React Native](Scans/ReactNative/README.md)
 
-### iOS and Android - Flutter
-[Flutter integration](Scans/Flutter/README.md)
+[iOS and Android - Flutter](Scans/Flutter/README.md)
 
 ## Turnkey SDK Integration
 
 You can review the integrations for the following:
 
-### iOS Native App
-[iOS integration](Turnkey/ios/README.md)
+[iOS Native App](Turnkey/ios/README.md)
 
-### Android Native App 
-[Android integration](Turnkey/android/README.md)
+[Android Native App](Turnkey/android/README.md)
 
-### iOS and Android - Flutter
-[Flutter integration](Turnkey/Flutter/README.md)
+[iOS and Android - Flutter](Turnkey/Flutter/README.md)
 
 # Support
 
