@@ -1,31 +1,48 @@
-# AHI MultiScan SDK Integration Example Apps
-We have developed several apps with identical UI and functionality, for both iOS and Android platforms, demonstrating how to integrate the AHI MultiScan SDK into your app using the most popular and modern languages and frameworks. 
+# AHI SDK Integration Example Apps
+
+Several apps with identical UI and functionality, for both iOS and Android platforms, that demonstrate how to integrate AHI SDKs into your app using the most popular and modern languages and frameworks. 
 
 You can find a guide about using the Example Apps to demonstrate how to seamlessly integrate into your product on our [Developer Docs site](https://docs.advancedhumanimaging.io/).
 
-## Integrations
+## Scan SDK Integration
+
 You can review the integrations for the following:
 
 ### iOS App - UIKit
-[UIKit integration](UIKit/README.md)
+[UIKit integration](Scans/UIKit/README.md)
 
 ### iOS App - SwiftUI
-[SwiftUI integration](SwiftUI/README.md)
+[SwiftUI integration](Scans/SwiftUI/README.md)
 
 ### Android App - Kotlin 
-[Kotlin integration](Kotlin/README.md)
+[Kotlin integration](Scans/Kotlin/README.md)
 
 ### Android App - JetPack Compose
-[Jetpack Compose integration](JetpackCompose/README.md)
+[Jetpack Compose integration](Scans/JetpackCompose/README.md)
 
 ### iOS and Android - React Native
-[React Native integration](ReactNative/README.md)
+[React Native integration](Scans/ReactNative/README.md)
 
 ### iOS and Android - Flutter
-[Flutter integration](Flutter/README.md)
+[Flutter integration](Scans/Flutter/README.md)
 
-## Support
+## Turnkey SDK Integration
+
+You can review the integrations for the following:
+
+### iOS Native App
+[iOS integration](Turnkey/ios/README.md)
+
+### Android Native App 
+[Android integration](Turnkey/android/README.md)
+
+### iOS and Android - Flutter
+[Flutter integration](Turnkey/Flutter/README.md)
+
+# Support
+
 Contact support@ahi.tech for more information. 
 
-## License
+# License
+
 License is under Apache 2.0. 
