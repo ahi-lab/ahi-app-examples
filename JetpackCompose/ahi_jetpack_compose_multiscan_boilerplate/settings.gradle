@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-
+        maven { url 'https://jitpack.io' }
         // release sdk repo (partner and AHI developer access)
         def RELEASE_ACCESS_KEY = System.getenv("AHI_RELEASE_AWS_ACCESS_KEY") ?: ""
         def RELEASE_SECRET = System.getenv("AHI_RELEASE_AWS_SECRET_KEY") ?: ""
